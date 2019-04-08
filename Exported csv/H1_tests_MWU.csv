@@ -1,0 +1,5 @@
+,Group:,TestName,Test Purpose,stat,p
+0,A: ['Discount'] > 0,normaltest,Normality,261.528,0.0
+1,B: ['Discount'] == 0,normaltest,Normality,544.577,0.0
+2,A&B,stats.levene,Equal Var,14.8327,0.0001
+3,A vs. B,stats.mannwhitneyu,H1_sig,642105.0,0.0
