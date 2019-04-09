@@ -3,10 +3,10 @@ body {
     margin: 0;
     font-family: serif;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
 }
 table.dataframe {
-    border-collapse: separate;
+    border-collapse: collapse;
     border: 1px solid black;
 }
 table.dataframe tr {
@@ -15,8 +15,8 @@ table.dataframe tr {
 table.dataframe td, table.dataframe th {
     margin: 0.1;
     border: 1px solid white;
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 table.dataframe th:not(:empty) {
     background-color: #000000;
@@ -29,9 +29,8 @@ table.dataframe tr:nth-child(2) th:empty {
     border-right: 1px dashed #888;
 }
 table.dataframe td {
-    border: 2px solid ##e8e8ea;
+    border: 1px solid ##e8e8ea;
     background-color: ##e8e8ea;
-    text-align: center;
-    font-weight: bold;
+    text-align: center; 
 }
 """
