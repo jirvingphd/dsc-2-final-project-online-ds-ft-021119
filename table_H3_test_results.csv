@@ -1,0 +1,50 @@
+,Group:,TestName,Test Purpose,stat,p,p<.05?
+0,jul,normaltest,Normality,28.482051126185347,6.534331770226038e-07,True
+1,aug,normaltest,Normality,35.4162984483613,2.0391468707471406e-08,True
+2,sep,normaltest,Normality,20.54630169179557,3.454834723154762e-05,True
+3,oct,normaltest,Normality,55.13143348111063,1.067483890748691e-12,True
+4,nov,normaltest,Normality,47.558320737323626,4.7080586849956407e-11,True
+5,dec,normaltest,Normality,65.10205167458949,7.299096385000296e-15,True
+6,jan,normaltest,Normality,71.68838581919523,2.710596112209101e-16,True
+7,feb,normaltest,Normality,91.35156962415954,1.4563263232896427e-20,True
+8,mar,normaltest,Normality,139.72199290480154,4.568301306359054e-31,True
+9,apr,normaltest,Normality,81.80660342704186,1.721558457237129e-18,True
+10,may,normaltest,Normality,51.838465893479984,5.538857041016992e-12,True
+11,jun,normaltest,Normality,4.169504160436977,0.1243379421803869,False
+12,Total Pop,normaltest,Normality,643.6462681557083,1.7139127958467058e-140,True
+13,jul vs. Other Months,levene,Equal Variance,0.08908698411668683,0.7654159773157225,False
+14,aug vs. Other Months,levene,Equal Variance,2.311797611007708,0.1287772463793559,False
+15,sep vs. Other Months,levene,Equal Variance,0.4164128010503067,0.5189112017168218,False
+16,oct vs. Other Months,levene,Equal Variance,0.0495489819210774,0.8239048413624521,False
+17,nov vs. Other Months,levene,Equal Variance,0.0011058587674115292,0.9734796878668748,False
+18,dec vs. Other Months,levene,Equal Variance,0.15670198166928623,0.6923132317013405,False
+19,jan vs. Other Months,levene,Equal Variance,0.8724457607745563,0.3505514114537899,False
+20,feb vs. Other Months,levene,Equal Variance,1.3965244716891547,0.2376456391669916,False
+21,mar vs. Other Months,levene,Equal Variance,0.5157451715695875,0.47286491712203826,False
+22,apr vs. Other Months,levene,Equal Variance,1.6495866989552368,0.19937442355032606,False
+23,may vs. Other Months,levene,Equal Variance,0.023839998269023565,0.8773303503249091,False
+24,jun vs. Other Months,levene,Equal Variance,1.9308634577486683,0.1650375271440254,False
+25,jul vs. Other Months,mannwhitneyu,Hi sig.,45417.0,0.02110767938013441,True
+26,aug vs. Other Months,mannwhitneyu,Hi sig.,47377.0,0.016772718623516168,True
+27,sep vs. Other Months,mannwhitneyu,Hi sig.,48735.0,0.012510680387681881,True
+28,oct vs. Other Months,mannwhitneyu,Hi sig.,58962.5,0.3573238067080603,False
+29,nov vs. Other Months,mannwhitneyu,Hi sig.,50998.0,0.075433076908931,False
+30,dec vs. Other Months,mannwhitneyu,Hi sig.,69149.5,0.1069818633432225,False
+31,jan vs. Other Months,mannwhitneyu,Hi sig.,78282.5,0.25022620640069093,False
+32,feb vs. Other Months,mannwhitneyu,Hi sig.,64028.0,0.001149580649845926,True
+33,mar vs. Other Months,mannwhitneyu,Hi sig.,75748.0,0.00011060596683120235,True
+34,apr vs. Other Months,mannwhitneyu,Hi sig.,85237.0,0.013660809437219772,True
+35,may vs. Other Months,mannwhitneyu,Hi sig.,40501.5,0.16518223957270972,False
+36,jun vs. Other Months,mannwhitneyu,Hi sig.,26240.5,0.13545426934666646,False
+37,jul,Cohen_d,efect Size,26240.5,,
+38,aug,Cohen_d,efect Size,26240.5,,
+39,sep,Cohen_d,efect Size,26240.5,,
+40,oct,Cohen_d,efect Size,26240.5,,
+41,nov,Cohen_d,efect Size,26240.5,,
+42,dec,Cohen_d,efect Size,26240.5,,
+43,jan,Cohen_d,efect Size,26240.5,,
+44,feb,Cohen_d,efect Size,26240.5,,
+45,mar,Cohen_d,efect Size,26240.5,,
+46,apr,Cohen_d,efect Size,26240.5,,
+47,may,Cohen_d,efect Size,26240.5,,
+48,jun,Cohen_d,efect Size,26240.5,,

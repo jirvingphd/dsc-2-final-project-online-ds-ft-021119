@@ -1,0 +1,60 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Group:</th>
+      <th>TestName</th>
+      <th>Test Purpose</th>
+      <th>stat</th>
+      <th>p</th>
+      <th>p&lt;.05?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>A: ['Discount'] &gt; 0</td>
+      <td>normaltest</td>
+      <td>Normality</td>
+      <td>261.528</td>
+      <td>1.62149e-57</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>B: ['Discount'] == 0</td>
+      <td>normaltest</td>
+      <td>Normality</td>
+      <td>544.577</td>
+      <td>5.57964e-119</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>A&amp;B</td>
+      <td>stats.levene</td>
+      <td>Equal Var</td>
+      <td>14.8327</td>
+      <td>0.000120914</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>A vs. B</td>
+      <td>stats.mannwhitneyu</td>
+      <td>H1_sig</td>
+      <td>642105</td>
+      <td>6.62938e-11</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>A vs. B</td>
+      <td>Cohen's d</td>
+      <td>Effect Size</td>
+      <td>d</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+  </tbody>
+</table>

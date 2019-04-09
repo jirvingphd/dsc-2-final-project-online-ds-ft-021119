@@ -1,0 +1,33 @@
+CSS_pandas = """
+body {
+    margin: 0;
+    font-family: Georgia;
+}
+table.dataframe {
+    border-collapse: collapse;
+    border: none;
+}
+table.dataframe tr {
+    border: none;
+}
+table.dataframe td, table.dataframe th {
+    margin: 0;
+    border: 1px solid white;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+table.dataframe th:not(:empty) {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+}
+table.dataframe tr:nth-child(2) th:empty {
+    border-left: none;
+    border-right: 1px dashed #888;
+}
+table.dataframe td {
+    border: 2px solid ##e8e8ea;
+    background-color: ##e8e8ea;
+}
+"""
