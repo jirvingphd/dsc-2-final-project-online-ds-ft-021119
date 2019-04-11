@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: serif;
     text-align: center;
-    font-weight: normal;
+    font-weight: bold;
 }
 table.dataframe {
     border-collapse: collapse;
