@@ -1,6 +1,6 @@
-,Group:,TestName,Test Purpose,stat,p,p<.05?
-0,A: ['discounted_order'] == True,normaltest,Normality,309.8566632385119,5.193743376505954e-68,True
-1,B: ['discounted_order'] == False,normaltest,Normality,368.4093987857893,1.0021102701214462e-80,True
-2,A&B,stats.levene,Equal Var,0.7142671292235668,0.3982749993804965,False
+,Group,TestName,Test Purpose,stat,p,p<.05?
+0,A: ['discounted_order'] == True,normaltest,Normality,309.8567,5.193743376505954e-68,True
+1,B: ['discounted_order'] == False,normaltest,Normality,368.4094,1.0021102701214462e-80,True
+2,A&B,stats.levene,Equal Var,0.7143,0.3982749993804965,False
 3,A vs. B,stats.mannwhitneyu,H2_sig,102021.0,7.90089740033802e-07,True
-4,A vs. B,Cohen's d,Effect Size,0.17803256374391174,--,--
+4,A vs. B,Cohen's d,Effect Size,0.178,--,--

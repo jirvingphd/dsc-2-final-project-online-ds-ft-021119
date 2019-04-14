@@ -1,0 +1,38 @@
+CSS_print = """
+<style type=\"text/css\">
+body {
+    margin: 0;
+    font-family: serif;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table.dataframe tr {
+    border: 1px solid black;
+}
+table.dataframe td, table.dataframe th {
+    margin: 0.1;
+    border: 1px solid white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+table.dataframe th:not(:empty) {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe tr:nth-child(2) th:empty {
+    border-left: none;
+    border-right: 1px dashed #888;
+}
+table.dataframe td {
+    border: 1px solid ##e8e8ea;
+    background-color: ##e8e8ea;
+    text-align: center; 
+}
+</style>
+"""

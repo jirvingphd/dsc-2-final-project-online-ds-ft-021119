@@ -1,0 +1,97 @@
+
+<style type="text/css">
+body {
+    margin: 0;
+    font-family: serif;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table.dataframe tr {
+    border: 1px solid black;
+}
+table.dataframe td, table.dataframe th {
+    margin: 0.1;
+    border: 1px solid white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+table.dataframe th:not(:empty) {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe tr:nth-child(2) th:empty {
+    border-left: none;
+    border-right: 1px dashed #888;
+}
+table.dataframe td {
+    border: 1px solid ##e8e8ea;
+    background-color: ##e8e8ea;
+    text-align: center; 
+}
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>Group</th>
+      <th>TestName</th>
+      <th>Test Purpose</th>
+      <th>stat</th>
+      <th>p</th>
+      <th>p&lt;.05?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>A: ['Discount'] &gt; 0</td>
+      <td>normaltest</td>
+      <td>Normality</td>
+      <td>261.528</td>
+      <td>1.6214878452829618e-57</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>B: ['Discount'] == 0</td>
+      <td>normaltest</td>
+      <td>Normality</td>
+      <td>544.577</td>
+      <td>5.579637380545965e-119</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>A&amp;B</td>
+      <td>stats.levene</td>
+      <td>Equal Var</td>
+      <td>14.833</td>
+      <td>0.00012091378376079568</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>A vs. B</td>
+      <td>stats.mannwhitneyu</td>
+      <td>H1_sig</td>
+      <td>642105.000</td>
+      <td>6.629381826999914e-11</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>A vs. B</td>
+      <td>Cohen's d</td>
+      <td>Effect Size</td>
+      <td>0.286</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+  </tbody>
+</table>

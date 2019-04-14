@@ -1,0 +1,97 @@
+
+<style type="text/css">
+body {
+    margin: 0;
+    font-family: serif;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table.dataframe tr {
+    border: 1px solid black;
+}
+table.dataframe td, table.dataframe th {
+    margin: 0.1;
+    border: 1px solid white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+table.dataframe th:not(:empty) {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe tr:nth-child(2) th:empty {
+    border-left: none;
+    border-right: 1px dashed #888;
+}
+table.dataframe td {
+    border: 1px solid ##e8e8ea;
+    background-color: ##e8e8ea;
+    text-align: center; 
+}
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>Group</th>
+      <th>TestName</th>
+      <th>Test Purpose</th>
+      <th>stat</th>
+      <th>p</th>
+      <th>p&lt;.05?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>A: ['discounted_order'] == True</td>
+      <td>normaltest</td>
+      <td>Normality</td>
+      <td>309.857</td>
+      <td>5.193743376505954e-68</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>B: ['discounted_order'] == False</td>
+      <td>normaltest</td>
+      <td>Normality</td>
+      <td>368.409</td>
+      <td>1.0021102701214462e-80</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>A&amp;B</td>
+      <td>stats.levene</td>
+      <td>Equal Var</td>
+      <td>0.714</td>
+      <td>0.3982749993804965</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>A vs. B</td>
+      <td>stats.mannwhitneyu</td>
+      <td>H2_sig</td>
+      <td>102021.000</td>
+      <td>7.90089740033802e-07</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>A vs. B</td>
+      <td>Cohen's d</td>
+      <td>Effect Size</td>
+      <td>0.178</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+  </tbody>
+</table>

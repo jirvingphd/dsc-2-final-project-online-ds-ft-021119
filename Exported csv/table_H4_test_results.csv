@@ -1,0 +1,6 @@
+,Group,TestName,Test Purpose,stat,p,p < .05
+0,A: High Discount Countries,normaltest,Normality,447.1499,7.991616726876095e-98,True
+1,B: Low Discount Countries,normaltest,Normality,215.2311,1.8329754433382687e-47,True
+2,A & B:,levene,Equal Variance,13.9481,0.00020080058199652888,True
+3,A vs B,mannwhitneyu,Hypothesis sig.,77366.5,0.00022710251078969745,True
+4,A vs B:,Cohen's d,Effect Size,0.3078,--,--

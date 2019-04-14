@@ -1,0 +1,187 @@
+
+<style type="text/css">
+body {
+    margin: 0;
+    font-family: serif;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table.dataframe tr {
+    border: 1px solid black;
+}
+table.dataframe td, table.dataframe th {
+    margin: 0.1;
+    border: 1px solid white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+table.dataframe th:not(:empty) {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe tr:nth-child(2) th:empty {
+    border-left: none;
+    border-right: 1px dashed #888;
+}
+table.dataframe td {
+    border: 1px solid ##e8e8ea;
+    background-color: ##e8e8ea;
+    text-align: center; 
+}
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>group1</th>
+      <th>group2</th>
+      <th>meandiff</th>
+      <th>lower</th>
+      <th>upper</th>
+      <th>reject</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>(-0.05, 0.0]</td>
+      <td>(0.0, 0.05]</td>
+      <td>5.337</td>
+      <td>1.184</td>
+      <td>9.489</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>(-0.05, 0.0]</td>
+      <td>(0.05, 0.1]</td>
+      <td>3.388</td>
+      <td>-0.948</td>
+      <td>7.724</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>(-0.05, 0.0]</td>
+      <td>(0.1, 0.15]</td>
+      <td>6.667</td>
+      <td>2.128</td>
+      <td>11.206</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>(-0.05, 0.0]</td>
+      <td>(0.15, 0.2]</td>
+      <td>5.310</td>
+      <td>0.822</td>
+      <td>9.798</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>(-0.05, 0.0]</td>
+      <td>(0.2, 0.25]</td>
+      <td>6.525</td>
+      <td>1.947</td>
+      <td>11.103</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>(0.0, 0.05]</td>
+      <td>(0.05, 0.1]</td>
+      <td>-1.949</td>
+      <td>-7.575</td>
+      <td>3.678</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>(0.0, 0.05]</td>
+      <td>(0.1, 0.15]</td>
+      <td>1.330</td>
+      <td>-4.454</td>
+      <td>7.114</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>(0.0, 0.05]</td>
+      <td>(0.15, 0.2]</td>
+      <td>-0.027</td>
+      <td>-5.772</td>
+      <td>5.717</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>(0.0, 0.05]</td>
+      <td>(0.2, 0.25]</td>
+      <td>1.188</td>
+      <td>-4.627</td>
+      <td>7.003</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>(0.05, 0.1]</td>
+      <td>(0.1, 0.15]</td>
+      <td>3.279</td>
+      <td>-2.639</td>
+      <td>9.196</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>(0.05, 0.1]</td>
+      <td>(0.15, 0.2]</td>
+      <td>1.921</td>
+      <td>-3.957</td>
+      <td>7.800</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>(0.05, 0.1]</td>
+      <td>(0.2, 0.25]</td>
+      <td>3.137</td>
+      <td>-2.811</td>
+      <td>9.084</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>(0.1, 0.15]</td>
+      <td>(0.15, 0.2]</td>
+      <td>-1.357</td>
+      <td>-7.387</td>
+      <td>4.672</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>(0.1, 0.15]</td>
+      <td>(0.2, 0.25]</td>
+      <td>-0.142</td>
+      <td>-6.239</td>
+      <td>5.955</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>(0.15, 0.2]</td>
+      <td>(0.2, 0.25]</td>
+      <td>1.215</td>
+      <td>-4.844</td>
+      <td>7.275</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>

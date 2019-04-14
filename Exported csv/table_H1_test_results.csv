@@ -1,6 +1,6 @@
-,Group:,TestName,Test Purpose,stat,p,p<.05?
-0,A: ['Discount'] > 0,normaltest,Normality,261.528012299789,1.6214878452829618e-57,True
-1,B: ['Discount'] == 0,normaltest,Normality,544.5770045551502,5.579637380545965e-119,True
-2,A&B,stats.levene,Equal Var,14.832671704073421,0.00012091378376079568,True
+,Group,TestName,Test Purpose,stat,p,p<.05?
+0,A: ['Discount'] > 0,normaltest,Normality,261.528,1.6214878452829618e-57,True
+1,B: ['Discount'] == 0,normaltest,Normality,544.577,5.579637380545965e-119,True
+2,A&B,stats.levene,Equal Var,14.8327,0.00012091378376079568,True
 3,A vs. B,stats.mannwhitneyu,H1_sig,642105.0,6.629381826999914e-11,True
-4,A vs. B,Cohen's d,Effect Size,d,--,--
+4,A vs. B,Cohen's d,Effect Size,0.2864,--,--

@@ -1,0 +1,60 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>Group</th>
+      <th>TestName</th>
+      <th>Test Purpose</th>
+      <th>stat</th>
+      <th>p</th>
+      <th>p &lt; .05</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>A: High Discount Countries</td>
+      <td>normaltest</td>
+      <td>Normality</td>
+      <td>447.150</td>
+      <td>7.99e-98</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>B: Low Discount Countries</td>
+      <td>normaltest</td>
+      <td>Normality</td>
+      <td>215.231</td>
+      <td>1.83e-47</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>A &amp; B:</td>
+      <td>levene</td>
+      <td>Equal Variance</td>
+      <td>13.948</td>
+      <td>0.000201</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>A vs B</td>
+      <td>mannwhitneyu</td>
+      <td>Hypothesis sig.</td>
+      <td>77366.500</td>
+      <td>0.000227</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>A vs B:</td>
+      <td>Cohen's d</td>
+      <td>Effect Size</td>
+      <td>0.308</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,92 @@
+
+<style type="text/css">
+table {
+color: #333;
+font-family: Helvetica, Arial, sans-serif;
+width: 640px;
+border-collapse:
+collapse; 
+border-spacing: 0;
+}
+td, th {
+border: 1px solid transparent; /* No more visible border */
+height: 30px;
+}
+th {
+background: #DFDFDF; /* Darken header a bit */
+font-weight: bold;
+}
+td {
+background: #FAFAFA;
+text-align: center;
+}
+table tr:nth-child(odd) td{
+background-color: white;
+}
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>Group:</th>
+      <th>TestName</th>
+      <th>Test Purpose</th>
+      <th>stat</th>
+      <th>p</th>
+      <th>p&lt;.05?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>A: ['Discount'] &gt; 0</td>
+      <td>normaltest</td>
+      <td>Normality</td>
+      <td>261.528</td>
+      <td>1.6214878452829618e-57</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>B: ['Discount'] == 0</td>
+      <td>normaltest</td>
+      <td>Normality</td>
+      <td>544.577</td>
+      <td>5.579637380545965e-119</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>A&amp;B</td>
+      <td>stats.levene</td>
+      <td>Equal Var</td>
+      <td>14.833</td>
+      <td>0.00012091378376079568</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>A vs. B</td>
+      <td>stats.mannwhitneyu</td>
+      <td>H1_sig</td>
+      <td>642105.000</td>
+      <td>6.629381826999914e-11</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>A vs. B</td>
+      <td>Cohen's d</td>
+      <td>Effect Size</td>
+      <td>0.286</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+  </tbody>
+</table>

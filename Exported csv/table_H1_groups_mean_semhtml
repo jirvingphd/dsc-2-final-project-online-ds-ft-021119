@@ -1,0 +1,213 @@
+
+<style type="text/css">
+body {
+    margin: 0;
+    font-family: serif;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table.dataframe tr {
+    border: 1px solid black;
+}
+table.dataframe td, table.dataframe th {
+    margin: 0.1;
+    border: 1px solid white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+table.dataframe th:not(:empty) {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe tr:nth-child(2) th:empty {
+    border-left: none;
+    border-right: 1px dashed #888;
+}
+table.dataframe td {
+    border: 1px solid ##e8e8ea;
+    background-color: ##e8e8ea;
+    text-align: center; 
+}
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>Discount</th>
+      <th>group</th>
+      <th>mean</th>
+      <th>sem</th>
+      <th>n</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>(-0.05, 0.0]</td>
+      <td>(-0.05, 0.0]</td>
+      <td>21.715</td>
+      <td>0.482</td>
+      <td>1317</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>(0.0, 0.05]</td>
+      <td>(0.0, 0.05]</td>
+      <td>27.052</td>
+      <td>1.612</td>
+      <td>192</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>(0.05, 0.1]</td>
+      <td>(0.05, 0.1]</td>
+      <td>25.103</td>
+      <td>1.607</td>
+      <td>174</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>(0.1, 0.15]</td>
+      <td>(0.1, 0.15]</td>
+      <td>28.382</td>
+      <td>1.670</td>
+      <td>157</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>(0.15, 0.2]</td>
+      <td>(0.15, 0.2]</td>
+      <td>27.025</td>
+      <td>1.484</td>
+      <td>161</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>(0.2, 0.25]</td>
+      <td>(0.2, 0.25]</td>
+      <td>28.240</td>
+      <td>1.621</td>
+      <td>154</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>(0.25, 0.3]</td>
+      <td>(0.25, 0.3]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<style type="text/css">
+body {
+    margin: 0;
+    font-family: serif;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table.dataframe tr {
+    border: 1px solid black;
+}
+table.dataframe td, table.dataframe th {
+    margin: 0.1;
+    border: 1px solid white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+table.dataframe th:not(:empty) {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe tr:nth-child(2) th:empty {
+    border-left: none;
+    border-right: 1px dashed #888;
+}
+table.dataframe td {
+    border: 1px solid ##e8e8ea;
+    background-color: ##e8e8ea;
+    text-align: center; 
+}
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>Discount</th>
+      <th>group</th>
+      <th>mean</th>
+      <th>sem</th>
+      <th>n</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>(-0.05, 0.0]</td>
+      <td>(-0.05, 0.0]</td>
+      <td>21.715</td>
+      <td>0.482</td>
+      <td>1317</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>(0.0, 0.05]</td>
+      <td>(0.0, 0.05]</td>
+      <td>27.052</td>
+      <td>1.612</td>
+      <td>192</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>(0.05, 0.1]</td>
+      <td>(0.05, 0.1]</td>
+      <td>25.103</td>
+      <td>1.607</td>
+      <td>174</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>(0.1, 0.15]</td>
+      <td>(0.1, 0.15]</td>
+      <td>28.382</td>
+      <td>1.670</td>
+      <td>157</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>(0.15, 0.2]</td>
+      <td>(0.15, 0.2]</td>
+      <td>27.025</td>
+      <td>1.484</td>
+      <td>161</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>(0.2, 0.25]</td>
+      <td>(0.2, 0.25]</td>
+      <td>28.240</td>
+      <td>1.621</td>
+      <td>154</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>(0.25, 0.3]</td>
+      <td>(0.25, 0.3]</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
